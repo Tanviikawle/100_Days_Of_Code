@@ -1,5 +1,4 @@
 import turtle
-import pandas
 
 screen=turtle.Screen()
 screen.title("U.S. State Games")
