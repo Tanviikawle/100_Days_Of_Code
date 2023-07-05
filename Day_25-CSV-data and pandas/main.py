@@ -1,4 +1,5 @@
 import turtle
+import pandas
 
 screen=turtle.Screen()
 screen.title("U.S. State Games")
@@ -6,7 +7,7 @@ image="C:/Users/Ashlesha/Documents/Projects/Python Projects #100DaysOfCode/Day_2
 screen.addshape(image)
 turtle.shape(image)
 
-data=pandas.read_csv("50_states.csv")
+data=pandas.read_csv("C:/Users/Ashlesha/Documents/Projects/Python Projects #100DaysOfCode/Day_25-CSV-data and pandas/50_states.csv")
 all_states=data.state.to_list()
 guessed_states=[]
 
