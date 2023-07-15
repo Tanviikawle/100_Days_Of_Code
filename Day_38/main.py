@@ -1,6 +1,5 @@
 import requests
 from datetime import datetime
-import os
 
 
 APP_ID="91ef72fb"
